@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Split Bill App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The Split Bill App is a simple and practical application that allows you to evenly split bills among your friends. This application is written in React. This application was developed as a practice exercise at the request of a friend from Isfahan. I hope you enjoy using it!
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+This application does not have any specific features and is designed solely for practice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add new friends
+- Split bills among friends
+- Display each friend's debt
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation and Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install and set up this application, first, you need to clone the project. Then, in the project directory, run the `npm install` command to install the dependencies. Finally, run the `npm start` command to open the application in your browser.
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project includes several React components:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Button`: A simple button component.
+- `FormAddFriend`: A form that allows the user to add a new friend.
+- `FormSplitBill`: A form that allows the user to split a bill between themselves and a selected friend.
+- `Friend`: A component that displays a friend's data.
+- `FriendsList`: A component that displays a list of `Friend` components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribution
 
-### `npm run eject`
+Any contribution to the development of this application is welcomed. Please check the existing issues before submitting a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is published under the MIT license. For more information, please see the LICENSE file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Split Bill App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## مقدمه
 
-## Learn More
+Split Bill App یک برنامه ساده و کاربردی است که به شما اجازه می‌دهد صورتحساب‌ها را بین دوستانتان به طور مساوی تقسیم کنید. این برنامه با React نوشته شده است. این برنامه به درخواست یک دوست اصفهانی برای تمرین تفکیک دنگ پیاده‌سازی شده است. امیدوارم از استفاده از آن لذت ببرید!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ویژگی‌ها
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+این برنامه ویژگی خاصی ندارد و فقط برای تمرین طراحی شده است.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- اضافه کردن دوستان جدید
+- تقسیم صورتحساب بین دوستان
+- نمایش بدهی هر دوست
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## نصب و راه‌اندازی
 
-### Making a Progressive Web App
+برای نصب و راه‌اندازی این برنامه، ابتدا باید پروژه را کلون کنید. سپس، در دایرکتوری پروژه، دستور `npm install` را اجرا کنید تا وابستگی‌ها نصب شوند. در نهایت، دستور `npm start` را اجرا کنید تا برنامه را در مرورگر خود باز کنید.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ساختار پروژه
 
-### Advanced Configuration
+پروژه شامل چندین کامپوننت React است:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `Button`: یک کامپوننت دکمه ساده.
+- `FormAddFriend`: یک فرم که به کاربر اجازه می‌دهد یک دوست جدید اضافه کند.
+- `FormSplitBill`: یک فرم که به کاربر اجازه می‌دهد یک صورتحساب را بین خود و یک دوست انتخاب شده تقسیم کند.
+- `Friend`: یک کامپوننت که نمایش داده‌های یک دوست را نمایش می‌دهد.
+- `FriendsList`: یک کامپوننت که لیستی از کامپوننت‌های `Friend` را نمایش می‌دهد.
 
-### Deployment
+## مشارکت
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+هرگونه مشارکت در توسعه این برنامه استقبال می‌شود. لطفا قبل از ارسال درخواست کشیدن، مسائل موجود را بررسی کنید.
 
-### `npm run build` fails to minify
+## مجوز
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+این پروژه تحت مجوز MIT منتشر شده است. برای اطلاعات بیشتر، لطفا فایل LICENSE را ببینید.
+
+
